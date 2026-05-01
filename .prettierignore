@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+coverage
+package-lock.json
+public
+csvs
+gen_data
+outputs
+*.min.js
+*.min.css

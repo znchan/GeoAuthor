@@ -1,0 +1,50 @@
+{
+  "name": "geoauthor",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.vue",
+    "lint:fix": "eslint . --ext .js,.vue --fix",
+    "format": "prettier --write \"src/**/*.{js,vue,css}\" \"*.{json,md,js}\"",
+    "format:check": "prettier --check \"src/**/*.{js,vue,css}\" \"*.{json,md,js}\""
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.2.0",
+    "@turf/turf": "^7.3.1",
+    "@vueup/vue-quill": "^1.2.0",
+    "axios": "^1.13.2",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "i18n-iso-countries": "^7.14.0",
+    "mapbox-gl": "^3.16.0",
+    "mapbox-gl-draw-rectangle-mode": "^1.0.4",
+    "osmtogeojson": "^3.0.0-beta.5",
+    "quill": "^2.0.3",
+    "tinycolor2": "^1.6.0",
+    "turf": "^3.0.14",
+    "vue": "^3.5.22",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.1.17",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^10.2.1",
+    "eslint-plugin-vue": "^10.9.0",
+    "globals": "^17.5.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.8.3",
+    "tailwindcss": "^4.1.17",
+    "vite": "^7.1.11",
+    "vite-plugin-vue-devtools": "^8.0.3",
+    "vue-eslint-parser": "^10.4.0"
+  }
+}
